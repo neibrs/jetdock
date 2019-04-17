@@ -1,0 +1,240 @@
+[2019-01-27 08:26:13,821]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 08:26:13,857]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 132
+[2019-01-27 08:26:13,860]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 08:26:13,861]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2019-01-27 08:26:13,862]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 08:26:13,862]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 08:26:13,865]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 08:26:13,865]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 08:26:13,866]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 08:26:13,867]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 08:26:13,954]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2019-01-27 08:26:13,974]  DEBUG - ains.launcher.run.AgentProcess - Sun Jan 27 08:26:13 UTC 2019 ==> Start launch
+[2019-01-27 08:26:13,977]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 08:26:13,979]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 08:26:13,980]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 08:26:14,019]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=350m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.jetpass.admin.name=default_admin_name, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -Xbootclasspath/p:/opt/youtrack/lib/alpn/1.8/alpn-boot-8.1.12.v20180117.jar, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2019-01-27 08:29:15,818]  TRACE -                           root - [stop] ================================================================ (start)
+[2019-01-27 08:29:15,849]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher process ID: 206
+[2019-01-27 08:29:15,852]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 08:29:15,852]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack home directory: /opt/youtrack
+[2019-01-27 08:29:15,853]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Command line: [stop]
+[2019-01-27 08:29:15,854]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 08:29:15,856]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher version: 1.0.117
+[2019-01-27 08:29:15,857]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 08:29:15,858]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 08:29:15,859]  DEBUG - .BaseLauncherConfig$BaseParser - [stop] Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 08:29:16,714]   INFO - ains.launcher.run.AgentProcess - YouTrack process finished
+[2019-01-27 08:29:16,731]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 08:29:16,749]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 08:29:16,753]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 08:29:16,756]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.start.flag
+[2019-01-27 08:29:16,765]  DEBUG - rains.launcher.run.AgentRunner - YouTrack has exited with code: 29 (EXIT)
+[2019-01-27 08:29:16,766]  DEBUG - rains.launcher.run.AgentRunner - Exit flag is set, launcher is exiting
+[2019-01-27 08:29:16,768]   INFO - rains.launcher.run.AgentRunner - Launcher is exiting
+[2019-01-27 08:29:16,783]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 08:29:17,012]   INFO - ains.launcher.ep.commands.Stop - [stop] YouTrack has shut down
+[2019-01-27 08:29:17,028]  TRACE -                           root - [stop] ================================================================ (finish)
+[2019-01-27 08:34:34,966]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 08:34:35,060]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-27 08:34:35,065]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 08:34:35,066]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2019-01-27 08:34:35,067]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 08:34:35,068]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 08:34:35,073]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 08:34:35,079]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 08:34:35,080]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 08:34:35,081]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 08:34:35,192]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 08:34:35,265]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2019-01-27 08:34:35,281]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 132
+[2019-01-27 08:34:35,285]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 08:34:35,290]  DEBUG - rains.launcher.ep.commands.Run - Hub home directory: /opt/hub
+[2019-01-27 08:34:35,291]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 08:34:35,292]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Hub Home>/logs
+[2019-01-27 08:34:35,295]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 08:34:35,296]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 08:34:35,297]  DEBUG - rains.launcher.ep.commands.Run - Hub config folder: <Hub Home>/conf
+[2019-01-27 08:34:35,298]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<Hub Home>/launcher/lib/hub-launcher.jar!/launcher.java.config
+[2019-01-27 08:34:35,303]  DEBUG - ains.launcher.run.AgentProcess - Sun Jan 27 08:34:35 UTC 2019 ==> Start launch
+[2019-01-27 08:34:35,322]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 08:34:35,324]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 08:34:35,340]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 08:34:35,358]  ERROR - rains.launcher.ep.commands.Run - Hub is already running
+[2019-01-27 08:34:35,369]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 08:34:35,399]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=350m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.jetpass.admin.name=default_admin_name, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -Xbootclasspath/p:/opt/youtrack/lib/alpn/1.8/alpn-boot-8.1.12.v20180117.jar, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2019-01-27 08:45:36,108]  TRACE -                           root - [stop] ================================================================ (start)
+[2019-01-27 08:45:36,163]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher process ID: 203
+[2019-01-27 08:45:36,166]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 08:45:36,167]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack home directory: /opt/youtrack
+[2019-01-27 08:45:36,167]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Command line: [stop]
+[2019-01-27 08:45:36,167]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 08:45:36,170]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher version: 1.0.117
+[2019-01-27 08:45:36,170]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 08:45:36,171]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 08:45:36,172]  DEBUG - .BaseLauncherConfig$BaseParser - [stop] Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 08:45:37,061]   INFO - ains.launcher.run.AgentProcess - YouTrack process finished
+[2019-01-27 08:45:37,080]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 08:45:37,093]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 08:45:37,102]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 08:45:37,109]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.start.flag
+[2019-01-27 08:45:37,118]  DEBUG - rains.launcher.run.AgentRunner - YouTrack has exited with code: 29 (EXIT)
+[2019-01-27 08:45:37,119]  DEBUG - rains.launcher.run.AgentRunner - Exit flag is set, launcher is exiting
+[2019-01-27 08:45:37,126]   INFO - rains.launcher.run.AgentRunner - Launcher is exiting
+[2019-01-27 08:45:37,141]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 08:45:37,360]   INFO - ains.launcher.ep.commands.Stop - [stop] YouTrack has shut down
+[2019-01-27 08:45:37,371]  TRACE -                           root - [stop] ================================================================ (finish)
+[2019-01-27 08:45:48,031]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 08:45:48,036]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 08:45:48,078]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-27 08:45:48,083]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 08:45:48,084]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2019-01-27 08:45:48,084]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 08:45:48,085]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 08:45:48,087]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 08:45:48,088]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 08:45:48,089]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 08:45:48,091]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 08:45:48,104]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-27 08:45:48,107]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 08:45:48,108]  DEBUG - rains.launcher.ep.commands.Run - Hub home directory: /opt/hub
+[2019-01-27 08:45:48,108]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 08:45:48,109]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Hub Home>/logs
+[2019-01-27 08:45:48,113]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 08:45:48,114]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 08:45:48,115]  DEBUG - rains.launcher.ep.commands.Run - Hub config folder: <Hub Home>/conf
+[2019-01-27 08:45:48,116]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<Hub Home>/launcher/lib/hub-launcher.jar!/launcher.java.config
+[2019-01-27 08:45:48,212]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2019-01-27 08:45:48,214]  ERROR - rains.launcher.ep.commands.Run - Hub is already running
+[2019-01-27 08:45:48,219]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 08:45:48,251]  DEBUG - ains.launcher.run.AgentProcess - Sun Jan 27 08:45:48 UTC 2019 ==> Start launch
+[2019-01-27 08:45:48,258]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 08:45:48,259]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 08:45:48,259]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 08:45:48,292]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=350m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.jetpass.admin.name=default_admin_name, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -Xbootclasspath/p:/opt/youtrack/lib/alpn/1.8/alpn-boot-8.1.12.v20180117.jar, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2019-01-27 09:08:41,128]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 09:08:41,194]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-27 09:08:41,197]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 09:08:41,198]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2019-01-27 09:08:41,199]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 09:08:41,200]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 09:08:41,204]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 09:08:41,204]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 09:08:41,205]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 09:08:41,206]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 09:08:41,400]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2019-01-27 09:08:41,476]  DEBUG - ains.launcher.run.AgentProcess - Sun Jan 27 09:08:41 UTC 2019 ==> Start launch
+[2019-01-27 09:08:41,489]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 09:08:41,490]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 09:08:41,517]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 09:08:41,569]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 09:08:41,605]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=350m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.jetpass.admin.name=default_admin_name, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -Xbootclasspath/p:/opt/youtrack/lib/alpn/1.8/alpn-boot-8.1.12.v20180117.jar, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2019-01-27 09:08:41,665]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-27 09:08:41,671]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher Java: <Upsource Home>/internal/java/linux-x64/jre (version "1.8.0_191", build "1.8.0_191-b12")
+[2019-01-27 09:08:41,678]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: /opt/upsource
+[2019-01-27 09:08:41,679]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 09:08:41,679]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>/logs
+[2019-01-27 09:08:41,683]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.131
+[2019-01-27 09:08:41,683]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 09:08:41,699]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>/conf
+[2019-01-27 09:08:41,701]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<Upsource Home>/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2019-01-27 09:08:41,770]  ERROR - rains.launcher.ep.commands.Run - Upsource is already running
+[2019-01-27 09:08:41,777]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 09:08:53,651]  TRACE -                           root - [stop] ================================================================ (start)
+[2019-01-27 09:08:53,694]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher process ID: 175
+[2019-01-27 09:08:53,697]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 09:08:53,697]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack home directory: /opt/youtrack
+[2019-01-27 09:08:53,698]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Command line: [stop]
+[2019-01-27 09:08:53,698]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 09:08:53,711]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher version: 1.0.117
+[2019-01-27 09:08:53,712]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 09:08:53,712]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 09:08:53,713]  DEBUG - .BaseLauncherConfig$BaseParser - [stop] Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 09:08:55,219]   INFO - ains.launcher.run.AgentProcess - YouTrack process finished
+[2019-01-27 09:08:55,228]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 09:08:55,231]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 09:08:55,234]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 09:08:55,236]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.start.flag
+[2019-01-27 09:08:55,239]  DEBUG - rains.launcher.run.AgentRunner - YouTrack has exited with code: 29 (EXIT)
+[2019-01-27 09:08:55,239]  DEBUG - rains.launcher.run.AgentRunner - Exit flag is set, launcher is exiting
+[2019-01-27 09:08:55,241]   INFO - rains.launcher.run.AgentRunner - Launcher is exiting
+[2019-01-27 09:08:55,253]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 09:08:55,531]   INFO - ains.launcher.ep.commands.Stop - [stop] YouTrack has shut down
+[2019-01-27 09:08:55,553]  TRACE -                           root - [stop] ================================================================ (finish)
+[2019-01-27 09:09:09,426]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 09:09:09,569]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-27 09:09:09,588]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 09:09:09,588]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2019-01-27 09:09:09,589]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 09:09:09,589]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 09:09:09,592]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 09:09:09,593]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 09:09:09,593]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 09:09:09,594]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 09:09:09,924]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2019-01-27 09:09:09,966]  DEBUG - ains.launcher.run.AgentProcess - Sun Jan 27 09:09:09 UTC 2019 ==> Start launch
+[2019-01-27 09:09:10,005]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 09:09:10,005]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 09:09:10,006]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 09:09:10,117]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=350m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.jetpass.admin.name=default_admin_name, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -Xbootclasspath/p:/opt/youtrack/lib/alpn/1.8/alpn-boot-8.1.12.v20180117.jar, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2019-01-27 09:09:10,347]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 09:09:10,404]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-27 09:09:10,416]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 09:09:10,420]  DEBUG - rains.launcher.ep.commands.Run - Hub home directory: /opt/hub
+[2019-01-27 09:09:10,421]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 09:09:10,421]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Hub Home>/logs
+[2019-01-27 09:09:10,424]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-27 09:09:10,424]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 09:09:10,425]  DEBUG - rains.launcher.ep.commands.Run - Hub config folder: <Hub Home>/conf
+[2019-01-27 09:09:10,426]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<Hub Home>/launcher/lib/hub-launcher.jar!/launcher.java.config
+[2019-01-27 09:09:10,496]  ERROR - rains.launcher.ep.commands.Run - Hub is already running
+[2019-01-27 09:09:10,500]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 09:09:10,511]  TRACE -                           root - ================================================================ (start)
+[2019-01-27 09:09:10,605]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 132
+[2019-01-27 09:09:10,611]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher Java: <Upsource Home>/internal/java/linux-x64/jre (version "1.8.0_191", build "1.8.0_191-b12")
+[2019-01-27 09:09:10,623]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: /opt/upsource
+[2019-01-27 09:09:10,624]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-27 09:09:10,624]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>/logs
+[2019-01-27 09:09:10,627]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.131
+[2019-01-27 09:09:10,628]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 09:09:10,628]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>/conf
+[2019-01-27 09:09:10,663]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<Upsource Home>/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2019-01-27 09:09:10,783]  ERROR - rains.launcher.ep.commands.Run - Upsource is already running
+[2019-01-27 09:09:10,789]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 09:10:13,670]  TRACE -                           root - [stop] ================================================================ (start)
+[2019-01-27 09:10:13,724]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher process ID: 202
+[2019-01-27 09:10:13,728]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-27 09:10:13,728]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack home directory: /opt/youtrack
+[2019-01-27 09:10:13,729]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Command line: [stop]
+[2019-01-27 09:10:13,730]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-27 09:10:13,732]  DEBUG - ains.launcher.ep.commands.Stop - [stop] JetLauncher version: 1.0.117
+[2019-01-27 09:10:13,733]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-27 09:10:13,734]  DEBUG - ains.launcher.ep.commands.Stop - [stop] YouTrack config folder: <YouTrack Home>/conf
+[2019-01-27 09:10:13,736]  DEBUG - .BaseLauncherConfig$BaseParser - [stop] Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-27 09:10:14,823]   INFO - ains.launcher.run.AgentProcess - YouTrack process finished
+[2019-01-27 09:10:14,830]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-27 09:10:14,835]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-27 09:10:14,837]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-27 09:10:14,840]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.start.flag
+[2019-01-27 09:10:14,842]  DEBUG - rains.launcher.run.AgentRunner - YouTrack has exited with code: 29 (EXIT)
+[2019-01-27 09:10:14,843]  DEBUG - rains.launcher.run.AgentRunner - Exit flag is set, launcher is exiting
+[2019-01-27 09:10:14,846]   INFO - rains.launcher.run.AgentRunner - Launcher is exiting
+[2019-01-27 09:10:14,862]  TRACE -                           root - ================================================================ (finish)
+[2019-01-27 09:10:15,097]   INFO - ains.launcher.ep.commands.Stop - [stop] YouTrack has shut down
+[2019-01-27 09:10:15,114]  TRACE -                           root - [stop] ================================================================ (finish)
+[2019-01-28 02:29:01,071]  TRACE -                           root - ================================================================ (start)
+[2019-01-28 02:29:01,161]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 131
+[2019-01-28 02:29:01,169]  DEBUG - rains.launcher.ep.commands.Run - Using Java: /usr/lib/jvm/java-8-openjdk-amd64/jre (version "1.8.0_162")
+[2019-01-28 02:29:01,175]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2019-01-28 02:29:01,176]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2019-01-28 02:29:01,176]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2019-01-28 02:29:01,179]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.117
+[2019-01-28 02:29:01,180]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [mac-daemon-commands, win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider]
+[2019-01-28 02:29:01,180]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2019-01-28 02:29:01,181]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2019-01-28 02:29:01,412]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2019-01-28 02:29:01,481]  DEBUG - ains.launcher.run.AgentProcess - Mon Jan 28 02:29:01 UTC 2019 ==> Start launch
+[2019-01-28 02:29:01,495]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2019-01-28 02:29:01,498]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2019-01-28 02:29:01,499]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2019-01-28 02:29:01,671]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=350m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.jetpass.admin.name=default_admin_name, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, -Xbootclasspath/p:/opt/youtrack/lib/alpn/1.8/alpn-boot-8.1.12.v20180117.jar, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})

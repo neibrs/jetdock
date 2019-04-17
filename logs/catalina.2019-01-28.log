@@ -1,0 +1,37 @@
+28-Jan-2019 02:29:01.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+28-Jan-2019 02:29:01.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+28-Jan-2019 02:29:01.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+28-Jan-2019 02:29:01.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2019 02:29:01.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.125-linuxkit
+28-Jan-2019 02:29:01.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2019 02:29:01.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk/jre
+28-Jan-2019 02:29:01.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_192-b12
+28-Jan-2019 02:29:01.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2019 02:29:01.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+28-Jan-2019 02:29:01.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+28-Jan-2019 02:29:01.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+28-Jan-2019 02:29:01.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseCGroupMemoryLimitForHeap
+28-Jan-2019 02:29:01.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+28-Jan-2019 02:29:01.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2019 02:29:01.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2019 02:29:01.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2019 02:29:01.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2019 02:29:01.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+28-Jan-2019 02:29:01.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+28-Jan-2019 02:29:01.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+28-Jan-2019 02:29:01.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+28-Jan-2019 02:29:01.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jan-2019 02:29:01.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2019 02:29:01.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+28-Jan-2019 02:29:01.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+28-Jan-2019 02:29:01.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+28-Jan-2019 02:29:02.000 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+28-Jan-2019 02:29:02.501 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+28-Jan-2019 02:29:02.563 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2019 02:29:02.610 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3038 ms
+28-Jan-2019 02:29:02.744 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2019 02:29:02.752 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+28-Jan-2019 02:29:02.775 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+28-Jan-2019 02:29:12.506 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [9,720] ms
+28-Jan-2019 02:29:12.559 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+28-Jan-2019 02:29:12.762 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 10151 ms

@@ -1,0 +1,304 @@
+[2019-01-27 09:09:18,945]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-01-27 09:09:19,204]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-01-27 09:09:19,208]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-01-27 09:09:19,209]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-01-27 09:09:20,323]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2018.2.2 (build 61245), data format version 875
+[2019-01-27 09:09:20,347]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 4.9.125-linuxkit, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-01-27 09:09:20,351]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx512m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-01-27 09:09:20,353]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-01-27 09:09:20,355]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.37
+[2019-01-27 09:09:20,357]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.18.0.3
+[2019-01-27 09:09:20,368]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-01-27 09:09:20,370]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-01-27 09:09:20,390]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-01-27 09:09:20,400]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-01-27 09:09:20,418]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_61245
+[2019-01-27 09:09:20,473]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-01-27 09:09:20,486]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-01-27 09:09:20,523]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-01-27 09:09:20,536]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-01-27 09:09:20,570]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-01-27 09:09:20,578]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-01-27 09:10:14,033]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown event received
+[2019-01-27 09:10:14,033]   INFO -  jetbrains.buildServer.STARTUP - Current stage: TeamCity server is shutting down
+[2019-01-27 09:10:14,036]   INFO -  jetbrains.buildServer.STARTUP - Stopping the main application
+[2019-01-27 09:10:14,037]   INFO -  jetbrains.buildServer.STARTUP - The main servlet is not initialized, nothing to shut down.
+[2019-01-27 09:10:14,043]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was released: /opt/teamcity/webapps/ROOT/BUILD_61245
+[2019-01-27 09:10:14,043]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown complete
+[2019-01-28 02:29:11,584]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-01-28 02:29:11,896]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-01-28 02:29:11,899]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-01-28 02:29:11,900]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-01-28 02:29:13,109]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2018.2.2 (build 61245), data format version 875
+[2019-01-28 02:29:13,138]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 4.9.125-linuxkit, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-01-28 02:29:13,146]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx512m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-01-28 02:29:13,148]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-01-28 02:29:13,149]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.37
+[2019-01-28 02:29:13,151]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.22.0.2
+[2019-01-28 02:29:13,155]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-01-28 02:29:13,166]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-01-28 02:29:13,191]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-01-28 02:29:13,192]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-01-28 02:29:13,201]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_61245
+[2019-01-28 02:29:13,264]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-01-28 02:29:13,276]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-01-28 02:29:13,300]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-01-28 02:29:13,302]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-01-28 02:29:13,371]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-01-28 02:29:13,372]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-01-28 02:29:52,637]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Initializing the TeamCity Data Directory
+[2019-01-28 02:29:53,249]   INFO -  jetbrains.buildServer.STARTUP - Downloading JDBC driver metadata from <https://download.jetbrains.com/teamcity/database-drivers/2018.2.xml?myVersion=2018.2.2&javaVersion=1.8.0_192>...
+[2019-01-28 02:29:56,554]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Setting up database connection (administrator login is required to proceed)
+[2019-01-28 02:30:36,782]   INFO -  jetbrains.buildServer.STARTUP - Generated JDBC connection string: jdbc:hsqldb:file:$TEAMCITY_SYSTEM_PATH/buildserver
+[2019-01-28 02:30:36,784]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Creating a new database
+[2019-01-28 02:30:36,785]   INFO -  jetbrains.buildServer.STARTUP - Creating a new database
+[2019-01-28 02:30:36,962]   INFO -  jetbrains.buildServer.STARTUP - Effective database connection properties:
+[2019-01-28 02:30:36,963]   INFO -  jetbrains.buildServer.STARTUP - 	cache_file_scale=8 [defaults]
+[2019-01-28 02:30:36,964]   INFO -  jetbrains.buildServer.STARTUP - 	hsqldb.default_table_type=cached [defaults]
+[2019-01-28 02:30:36,965]   INFO -  jetbrains.buildServer.STARTUP - 	log_size=1024 [defaults]
+[2019-01-28 02:30:37,812]   INFO -  jetbrains.buildServer.STARTUP - JDBC driver version: 2.3 (HSQL Database Engine Driver)
+[2019-01-28 02:30:37,813]   INFO -  jetbrains.buildServer.STARTUP - Database system version: 2.3.2 (HSQL Database Engine)
+[2019-01-28 02:30:37,814]   INFO -  jetbrains.buildServer.STARTUP - Connected to the database successfully
+[2019-01-28 02:30:37,859]   INFO -  jetbrains.buildServer.STARTUP - Using schema: PUBLIC
+[2019-01-28 02:30:37,865]   INFO -  jetbrains.buildServer.STARTUP - Schema contains no tables.
+[2019-01-28 02:30:37,866]   INFO -  jetbrains.buildServer.STARTUP - Creating database schema
+[2019-01-28 02:30:38,378]   INFO -  jetbrains.buildServer.STARTUP - Using schema: PUBLIC
+[2019-01-28 02:30:38,392]   INFO -  jetbrains.buildServer.STARTUP - Schema contains 148 tables.
+[2019-01-28 02:30:38,395]   INFO -  jetbrains.buildServer.STARTUP - Database version is 875
+[2019-01-28 02:30:38,426]   INFO -  jetbrains.buildServer.STARTUP - Created a new database.properties file with settings specified from Web UI.
+[2019-01-28 02:30:38,427]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Initializing TeamCity server components
+[2019-01-28 02:30:38,805]   INFO -  jetbrains.buildServer.STARTUP - Starting the main application
+[2019-01-28 02:30:38,913]   INFO - ebDispatcherApplicationContext - Refreshing TeamCity Root WebApplicationContext: startup date [Mon Jan 28 02:30:38 GMT 2019]; root of context hierarchy
+[2019-01-28 02:30:39,058]   INFO - MainTeamCityApplicationContext - Refreshing WebApplicationContext for namespace 'buildServer-servlet': startup date [Mon Jan 28 02:30:39 GMT 2019]; parent: TeamCity Root WebApplicationContext
+[2019-01-28 02:30:46,691]   INFO -   jetbrains.buildServer.SERVER - Loading test names index from database...
+[2019-01-28 02:30:46,716]   INFO -   jetbrains.buildServer.SERVER - Finished loading test names index in 16ms. Tests in the index: 0
+[2019-01-28 02:30:46,805]   INFO -   jetbrains.buildServer.SERVER - Build history cache size is set to 10000 entries
+[2019-01-28 02:30:47,735]   INFO -   jetbrains.buildServer.SERVER - Loading history of VCS changes...
+[2019-01-28 02:30:47,766]   INFO -   jetbrains.buildServer.SERVER - Done loading history of VCS changes: 0 changes loaded in 30ms
+[2019-01-28 02:30:48,065]   INFO -   jetbrains.buildServer.SERVER - Start initializing build durations cache...
+[2019-01-28 02:30:48,070]   INFO -   jetbrains.buildServer.SERVER - Finished initializing build durations cache, time spent: 4ms
+[2019-01-28 02:30:52,551]   WARN -   jetbrains.buildServer.UPDATE - Auto update is disabled: not supported for the 'docker-ubuntu' distribution.
+[2019-01-28 02:30:55,044]   INFO -   jetbrains.buildServer.SERVER - Applying memory thresholds for Memory Usage Monitor: storing 100 last measurements; time between measurements: 3000ms. Thresholds: {TC_TOTAL_MEMORY_USAGE_KEY=90.0, PS Old Gen=90.0}
+[2019-01-28 02:31:03,909]   INFO - til.ChildSpringContextLoader$1 - Refreshing SubContext (BuildAgentUpgrade): startup date [Mon Jan 28 02:31:03 GMT 2019]; parent: WebApplicationContext for namespace 'buildServer-servlet'
+[2019-01-28 02:31:04,027]   INFO -  jetbrains.buildServer.STARTUP - TeamCity Spring context contains 1501 beans
+[2019-01-28 02:31:05,191]   INFO -  jetbrains.buildServer.STARTUP - TeamCity Spring context created in: 26204 ms
+[2019-01-28 02:31:05,506]   INFO -   jetbrains.buildServer.SERVER - Root project configuration files created
+[2019-01-28 02:31:05,768]   INFO - ins.files.ServerPluginUnpacker - Unpacking zipped plugins from '/opt/teamcity/webapps/ROOT/WEB-INF/plugins'  to '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked'
+[2019-01-28 02:31:07,164]   INFO -   jetbrains.buildServer.SERVER - Start pre-compiling JSP files...
+[2019-01-28 02:31:10,082]   INFO - ins.files.ServerPluginUnpacker - Unpacking zipped plugins from '/data/teamcity_server/datadir/plugins'  to '/data/teamcity_server/datadir/system/caches/plugins.unpacked'
+[2019-01-28 02:31:10,082]   INFO - rver.plugins.PluginManagerImpl - ===========================================================
+[2019-01-28 02:31:10,083]   INFO - rver.plugins.PluginManagerImpl - Plugins initialization started...
+[2019-01-28 02:31:10,083]   INFO - rver.plugins.PluginManagerImpl - Scanning plugins folders
+[2019-01-28 02:31:10,085]   INFO - .plugins.files.JarSearcherBase - Scanning plugin folder: /opt/teamcity/webapps/ROOT/WEB-INF/plugins
+[2019-01-28 02:31:10,290]   INFO - .plugins.files.JarSearcherBase - Scanning plugin folder: /data/teamcity_server/datadir/plugins
+[2019-01-28 02:31:10,295]   INFO - ins.files.ServerPluginUnpacker - Unpacking zipped plugins from '/data/teamcity_server/datadir/plugins'  to '/data/teamcity_server/datadir/system/caches/plugins.unpacked'
+[2019-01-28 02:31:10,355]   INFO - rver.plugins.PluginManagerImpl - Found 97 bundled plugins: [agent-system-info (ver:61245), agent.push (ver:61245), Ant (ver:61245), ant-net-tasks (ver:61245), Apache Ant (ver:61245), artifactsSizeStatistics (ver:61245), bugzilla (ver:61245), buildDurationStatisticsPlugin (ver:61245), clearcase (ver:61245), cloud-amazon (ver:61245), commandLineRunner (ver:61245), commit-status-publisher (ver:61245), configs-dsl (ver:61245), coverage (ver:61245), cvs (ver:61245), data-dir-browse (ver:61245), deploy-runner (ver:61245), docker-support (ver:61245), dotnet-tools (ver:61245), dotnet.cli (ver:61245), dotNetRunners (ver:61245), Duplicator (ver:61245), eclipse-plugin-distributor (ver:61245), email (ver:61245), environment-fetcher (ver:61245), feed (ver:61245), file-content-replacer (ver:61245), flaky-test-detector (ver:61245), FxCop (ver:61245), gant-tool (ver:61245), GAntRunner (ver:61245), gradle-runner (ver:61245), idea-runner-runtime-libs (ver:61245), idea-tool (ver:61245), Inspection (ver:61245), intellij-plugin-distributor (ver:61245), investigations-auto-assigner (ver:61245), Ipr (ver:61245), jabber (ver:61245), Java Crashed detector (ver:61245), java-dowser (ver:61245), jetbrains.git (ver:61245), jira (ver:61245), jps-tool (ver:61245), jvm-update (ver:61245), ldap (ver:61245), Maven2 (ver:61245), mercurial (ver:61245), metarunner (ver:61245), nt-domain-login (ver:61245), nuget (ver:61245), overview-plugin (ver:61245), perfmon (ver:61245), perforce (ver:61245), powershell-runner (ver:61245), priority-queue (ver:61245), pull-requests (ver:61245), queue-pauser (ver:61245), rake-runner (ver:61245), remoteAccess (ver:61245), reset-password (ver:61245), rest-api (ver:61245), rest-api-2017.1 (ver:61245), rest-api-2017.2 (ver:61245), rest-api-6.0 (ver:61245), rest-api-7.0 (ver:61245), rest-api-8.1 (ver:61245), rest-api-9.0 (ver:61245), rest-api-9.1 (ver:61245), rest-api-contrib (ver:61245), rest-api-contrib-2017.1 (ver:61245), rest-api-contrib-2017.2 (ver:61245), rest-api-contrib-9.0 (ver:61245), rest-api-contrib-9.1 (ver:61245), s3-artifact-storage (ver:61245), sbt-runner (ver:61245), searchBuildByNumber (ver:61245), ssh-manager (ver:61245), stacktraces (ver:61245), starteam (ver:61245), svn (ver:61245), swabra (ver:61245), TeamCity.BitBucketIssues (ver:61245), TeamCity.GitHubIssues (ver:61245), TeamCity.SharedResources (ver:61245), tfs (ver:61245), unified-ui (ver:61245), usage-statistics (ver:61245), vault-vcs (ver:61245), visualstudiotest (ver:61245), vs-addin-distributor (ver:61245), vsphere (ver:61245), WindowsTray (ver:61245), WindowsTray-distributor (ver:61245), xcode-runner (ver:61245), xml-report-plugin (ver:61245), youtrack (ver:61245)]
+[2019-01-28 02:31:10,503]   INFO - rver.plugins.PluginsCollection - Load shared classloader for 32 plugins [Ant, ant-net-tasks, Apache Ant, artifactsSizeStatistics, buildDurationStatisticsPlugin, clearcase, commandLineRunner, coverage, cvs, email, environment-fetcher, feed, gant-tool, GAntRunner, gradle-runner, intellij-plugin-distributor, jabber, Java Crashed detector, jps-tool, ldap, overview-plugin, perfmon, priority-queue, remoteAccess, sbt-runner, searchBuildByNumber, stacktraces, starteam, swabra, WindowsTray, xml-report-plugin, youtrack]
+[2019-01-28 02:31:10,549]   INFO - rver.plugins.PluginsCollection - Load standalone classloaders for 65 plugins [agent-system-info, agent.push, bugzilla, cloud-amazon, commit-status-publisher, configs-dsl, data-dir-browse, deploy-runner, docker-support, dotnet-tools, dotnet.cli, dotNetRunners, Duplicator, eclipse-plugin-distributor, file-content-replacer, flaky-test-detector, FxCop, idea-runner-runtime-libs, idea-tool, Inspection, investigations-auto-assigner, Ipr, java-dowser, jetbrains.git, jira, jvm-update, Maven2, mercurial, metarunner, nt-domain-login, nuget, perforce, powershell-runner, pull-requests, queue-pauser, rake-runner, reset-password, rest-api, rest-api-2017.1, rest-api-2017.2, rest-api-6.0, rest-api-7.0, rest-api-8.1, rest-api-9.0, rest-api-9.1, rest-api-contrib, rest-api-contrib-2017.1, rest-api-contrib-2017.2, rest-api-contrib-9.0, rest-api-contrib-9.1, s3-artifact-storage, ssh-manager, svn, TeamCity.BitBucketIssues, TeamCity.GitHubIssues, TeamCity.SharedResources, tfs, unified-ui, usage-statistics, vault-vcs, visualstudiotest, vs-addin-distributor, vsphere, WindowsTray-distributor, xcode-runner]
+[2019-01-28 02:31:18,562]   INFO -   jetbrains.buildServer.SERVER - Creating new Lucene index (version.24): org.apache.lucene.store.NIOFSDirectory@/data/teamcity_server/datadir/system/caches/search lockFactory=org.apache.lucene.store.NativeFSLockFactory@7ef2d171
+[2019-01-28 02:31:19,592]   INFO -   jetbrains.buildServer.SERVER - Restoring flaky tests status from finished builds started after: 2019-01-21 02:31:19.555
+[2019-01-28 02:31:34,016]   INFO - e.RemoteMavenServerManagerImpl - Starting external maven service
+[2019-01-28 02:31:37,028]   INFO - e.RemoteMavenServerManagerImpl - Remote server is connected.
+[2019-01-28 02:31:41,151]   INFO - rver.plugins.PluginManagerImpl - Plugins initialization completed (97 plugins loaded): [agent-system-info (ver:61245), agent.push (ver:61245), Ant (ver:61245), ant-net-tasks (ver:61245), Apache Ant (ver:61245), artifactsSizeStatistics (ver:61245), bugzilla (ver:61245), buildDurationStatisticsPlugin (ver:61245), clearcase (ver:61245), cloud-amazon (ver:61245), commandLineRunner (ver:61245), commit-status-publisher (ver:61245), configs-dsl (ver:61245), coverage (ver:61245), cvs (ver:61245), data-dir-browse (ver:61245), deploy-runner (ver:61245), docker-support (ver:61245), dotnet-tools (ver:61245), dotnet.cli (ver:61245), dotNetRunners (ver:61245), Duplicator (ver:61245), eclipse-plugin-distributor (ver:61245), email (ver:61245), environment-fetcher (ver:61245), feed (ver:61245), file-content-replacer (ver:61245), flaky-test-detector (ver:61245), FxCop (ver:61245), gant-tool (ver:61245), GAntRunner (ver:61245), gradle-runner (ver:61245), idea-runner-runtime-libs (ver:61245), idea-tool (ver:61245), Inspection (ver:61245), intellij-plugin-distributor (ver:61245), investigations-auto-assigner (ver:61245), Ipr (ver:61245), jabber (ver:61245), Java Crashed detector (ver:61245), java-dowser (ver:61245), jetbrains.git (ver:61245), jira (ver:61245), jps-tool (ver:61245), jvm-update (ver:61245), ldap (ver:61245), Maven2 (ver:61245), mercurial (ver:61245), metarunner (ver:61245), nt-domain-login (ver:61245), nuget (ver:61245), overview-plugin (ver:61245), perfmon (ver:61245), perforce (ver:61245), powershell-runner (ver:61245), priority-queue (ver:61245), pull-requests (ver:61245), queue-pauser (ver:61245), rake-runner (ver:61245), remoteAccess (ver:61245), reset-password (ver:61245), rest-api (ver:61245), rest-api-2017.1 (ver:61245), rest-api-2017.2 (ver:61245), rest-api-6.0 (ver:61245), rest-api-7.0 (ver:61245), rest-api-8.1 (ver:61245), rest-api-9.0 (ver:61245), rest-api-9.1 (ver:61245), rest-api-contrib (ver:61245), rest-api-contrib-2017.1 (ver:61245), rest-api-contrib-2017.2 (ver:61245), rest-api-contrib-9.0 (ver:61245), rest-api-contrib-9.1 (ver:61245), s3-artifact-storage (ver:61245), sbt-runner (ver:61245), searchBuildByNumber (ver:61245), ssh-manager (ver:61245), stacktraces (ver:61245), starteam (ver:61245), svn (ver:61245), swabra (ver:61245), TeamCity.BitBucketIssues (ver:61245), TeamCity.GitHubIssues (ver:61245), TeamCity.SharedResources (ver:61245), tfs (ver:61245), unified-ui (ver:61245), usage-statistics (ver:61245), vault-vcs (ver:61245), visualstudiotest (ver:61245), vs-addin-distributor (ver:61245), vsphere (ver:61245), WindowsTray (ver:61245), WindowsTray-distributor (ver:61245), xcode-runner (ver:61245), xml-report-plugin (ver:61245), youtrack (ver:61245)]
+[2019-01-28 02:31:41,158]   INFO - rver.plugins.PluginManagerImpl - ===========================================================
+[2019-01-28 02:31:41,171]   INFO -   jetbrains.buildServer.SERVER - TeamCity plugins loaded in: 35459 ms
+[2019-01-28 02:31:45,200]   INFO -   jetbrains.buildServer.SERVER - Start loading server configuration...
+[2019-01-28 02:31:45,405]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-01-28 02:31:45,454]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 03:00:00 daily
+[2019-01-28 02:31:45,457]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-01-28 02:31:46,016]   INFO -   jetbrains.buildServer.SERVER - Parsing 2 configuration files...
+[2019-01-28 02:31:46,090]   INFO -   jetbrains.buildServer.SERVER - Loading data from parsed configuration files...
+[2019-01-28 02:31:47,166]   INFO -   jetbrains.buildServer.SERVER - Server configuration loaded in: 1s,952ms
+[2019-01-28 02:31:47,233]   INFO - r.configs.dsl.DslPluginManager - Plugin sources are packed in 431ms
+[2019-01-28 02:32:04,755]   INFO -   jetbrains.buildServer.SERVER - TeamCity initialized, server UUID: b3f82cc4-cf60-4765-a645-d0727e2f237d, URL: http://localhost
+[2019-01-28 02:32:04,755]   INFO -   jetbrains.buildServer.SERVER - TeamCity is running in professional mode
+[2019-01-28 02:32:04,761]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-01-28 02:32:04,761]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-01-28 02:32:04,795]   INFO - utors.DeferringExecutorService - 4 commands sent to execution
+[2019-01-28 02:32:04,833]   INFO - utors.DeferringExecutorService - 3 commands sent to execution
+[2019-01-28 02:32:04,833]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-01-28 02:32:04,846]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-01-28 02:32:04,853]   INFO -   jetbrains.buildServer.SERVER - Start pre-fetching changes for 0 build configurations...
+[2019-01-28 02:32:04,858]   INFO -   jetbrains.buildServer.SERVER - Done pre-fetching changes for 0 build configurations in 5ms
+[2019-01-28 02:32:04,859]   INFO -   jetbrains.buildServer.SERVER - Start calculating branches for 0 build configurations...
+[2019-01-28 02:32:04,860]   INFO -   jetbrains.buildServer.SERVER - Done calculating branches for 0 build configurations (0 branches found) in < 1ms
+[2019-01-28 02:32:04,860]   INFO -   jetbrains.buildServer.SERVER - Start calculating status for 0 build configurations...
+[2019-01-28 02:32:04,861]   INFO -   jetbrains.buildServer.SERVER - Done calculating branches for 0 build configurations in < 1ms
+[2019-01-28 02:32:04,861]   INFO -   jetbrains.buildServer.SERVER - Start prefetching build statistic metrics for 0 build configurations...
+[2019-01-28 02:32:04,862]   INFO -   jetbrains.buildServer.SERVER - Done prefetching build statistic metrics for 0 build configurations in 1ms
+[2019-01-28 02:32:04,916]   INFO -   jetbrains.buildServer.SERVER - 0 historical test invocation(s) in 0 build(s) replayed in 0.113 ms (sql queries executed in 0.000 ms); 0 test invocation(s) ignored (0%)
+[2019-01-28 02:32:04,917]   INFO -   jetbrains.buildServer.SERVER - Flaky test detector: started processing tests queue. Current deferring tests count: 0
+[2019-01-28 02:32:04,918]   INFO -   jetbrains.buildServer.SERVER - Flaky test detector: finished processing deferred tests queue
+[2019-01-28 02:32:05,399]   INFO -   jetbrains.buildServer.SERVER - Super user authentication token: 6826737496918926848 (use empty username with the token as the password to access the server)
+[2019-01-28 02:32:05,423]   INFO - .agent.AgentZipVersionProvider - Build agent distribution '/opt/teamcity/webapps/ROOT/update/buildAgent.zip' state initialized. Last modified: 22.01.2019 20:06:00, size: 18963736
+[2019-01-28 02:32:05,425]   INFO -   jetbrains.buildServer.SERVER - Start loading test runs for investigations and mutes into cache...
+[2019-01-28 02:32:05,577]   INFO -   jetbrains.buildServer.SERVER - Start loading "failed to start" build configuration errors in background
+[2019-01-28 02:32:05,579]   INFO -   jetbrains.buildServer.SERVER - Done loading "failed to start" build configuration errors: loaded 0 problems
+[2019-01-28 02:32:05,628]   INFO -   jetbrains.buildServer.SERVER - Done loading test runs. Loaded 0 tests in 202ms, cache size: 0
+[2019-01-28 02:32:05,816]   INFO - ority.PriorityClassManagerImpl - Loading priority classes from the configuration file: /data/teamcity_server/datadir/config/build-queue-priorities.xml
+[2019-01-28 02:32:05,850]   INFO -   jetbrains.buildServer.SERVER - Ordering strategy changed to jetbrains.buildServer.serverSide.priority.BuildQueuePriorityOrdering
+[2019-01-28 02:32:05,963]   INFO - verSide.impl.BuildServerRunner - Start daemons
+[2019-01-28 02:32:05,990]   INFO - tbrains.buildServer.ACTIVITIES - Server Started
+[2019-01-28 02:32:06,015]   INFO -  jetbrains.buildServer.STARTUP - Startup duration: 2m:53s
+[2019-01-28 02:32:06,016]   INFO -  jetbrains.buildServer.STARTUP - Current stage: System is ready
+[2019-01-28 02:32:06,354]   INFO - .agent.AgentZipVersionProvider - Build agent distribution version is set to 61245, hash=SHA-1DHT8UUZfCmOJgw3ceTsO1d5om20=
+[2019-01-28 02:32:17,615]   INFO - nt.AgentPluginsVersionProvider - State of agent plugin packages is initialized in 11s,245ms: new plugin 'JetBrains.dotCover.CommandLineTools.bundled.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/dotNetRunners/bundled-tools/JetBrains.dotCover.CommandLineTools.bundled.zip', hash: 'SHA-16p3IgNIeGlyKhVRDFOK7uSa8WBI='; new plugin 'agentSystemInfo.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/agentSystemInfo/agent/agentSystemInfo.zip', hash: 'SHA-1+kSt2NrP3Ij7wm5EI8K0D2Xwmk0='; new plugin 'amazonEC2.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/cloud-amazon/agent/amazonEC2.zip', hash: 'SHA-1n4CFQ4k/2cWzJZAgxKrp41dwRDo='; new plugin 'ant-net-tasks.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant-net-tasks/agent/ant-net-tasks.zip', hash: 'SHA-1/pDvDODwI7XZeMcydowajeQdYlU='; new plugin 'ant.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant-tool/agent/ant.zip', hash: 'SHA-15hA93tE8A1zkBc6dvlgmRhTFx0c='; new plugin 'antPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant/agent/antPlugin.zip', hash: 'SHA-1yTr6/cdMBy0+3xRstzOGCZ5F0PE='; new plugin 'clearcase-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/clearcase/agent/clearcase-agent.zip', hash: 'SHA-1NSPUuYPHBeeFthWWtFSd3CWwgzs='; new plugin 'cloud-vmware-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/cloud-vmware/agent/cloud-vmware-agent.zip', hash: 'SHA-16Kj4m6cPhDB7iuJjRUbOsKa+J1M='; new plugin 'commandLineRunner.jar' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/commandLineRunner/agent/commandLineRunner.jar', hash: 'SHA-158xfgi3mEJ2J5qZnIE7sLlkrb88='; new plugin 'coveragePlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/coverage/agent/coveragePlugin.zip', hash: 'SHA-1L3DnqjIe0A9gkYLdvm7zQvrI988='; new plugin 'crashDetector.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/crash-detector/agent/crashDetector.zip', hash: 'SHA-1Y+6/z2eWhGQRTz7UYjSgOm6vyrU='; new plugin 'cvsAgent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/cvs-support/agent/cvsAgent.zip', hash: 'SHA-1Z+sTC6/AbKBLwU3Kblh8b9u9kco='; new plugin 'deploy-runner-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/deploy-runner/agent/deploy-runner-agent.zip', hash: 'SHA-1VvqneaXpsKlgTBFgB9Ob/mJ7+LE='; new plugin 'docker-support.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/docker-support/agent/docker-support.zip', hash: 'SHA-1+krG/Vtt7+ePgaysNGkm8AirCvU='; new plugin 'dotNetPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/dotNetRunners/agent/dotNetPlugin.zip', hash: 'SHA-1/7zJwmWJNlQc09Mc8x3eGOFGZm0='; new plugin 'dotNetRunners.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/dotNetRunners/agent/dotNetRunners.zip', hash: 'SHA-1y4MuStXiCForwiieHJYNCO07YUw='; new plugin 'dotnet-tools-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotnet-tools/agent/dotnet-tools-agent.zip', hash: 'SHA-1VVd4HCFePPpNZwussXStqIjvYXA='; new plugin 'dotnet.cli.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotnet.cli/agent/dotnet.cli.zip', hash: 'SHA-1WdtVFQkGMAMU1F9dtlNsmJVQTbg='; new plugin 'duplicatePlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Duplicator/agent/duplicatePlugin.zip', hash: 'SHA-11WvMVB8Nn1dKjx5dT1qnT1LkhnA='; new plugin 'environment-fetcher-agent.jar' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/environment-fetcher/agent/environment-fetcher-agent.jar', hash: 'SHA-1zxl8Ccd9iC4dGDbVR/xkr9mrRJo='; new plugin 'file-content-replacer.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/file-content-replacer/agent/file-content-replacer.zip', hash: 'SHA-1h/YNnxGCjTfbb8caqAm+YOKnHvc='; new plugin 'fxcop.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/fxcop/agent/fxcop.zip', hash: 'SHA-1Rv6iRAYQABDZ1iVtn+Ey+G+SqXg='; new plugin 'gant.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/gant-tool/agent/gant.zip', hash: 'SHA-1iyA66KAPRXx1MgPcEjZc738fcyA='; new plugin 'gantPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/gantRunner/agent/gantPlugin.zip', hash: 'SHA-16qzROMU2G/eOunYqfunjVT9dsN0='; new plugin 'gradle-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/gradle/agent/gradle-runner.zip', hash: 'SHA-1ghkDCBHzDBYhyD0nU19wU0aTwTc='; new plugin 'idea-runner-runtime-libs.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/idea-runner-runtime-libs/agent/idea-runner-runtime-libs.zip', hash: 'SHA-1RgkgAjoXxqb20wqzmzBytrjaRBU='; new plugin 'idea-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ipr-runner/agent/idea-runner.zip', hash: 'SHA-1jjL+JPTV7CZU2m1wn1Da5A+cjVw='; new plugin 'idea.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/idea-tool/bundled/idea.zip', hash: 'SHA-1uWWNXgB02gSPMpXfHZdOCKWms2s='; new plugin 'inspectionPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/server-side-inspections/agent/inspectionPlugin.zip', hash: 'SHA-1CFbRFYarH87fbfghi7dOnOrgtgM='; new plugin 'jacoco.0.7.5.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/coverage/bundled/jacoco.0.7.5.zip', hash: 'SHA-1Vy6fuqxoDCgLtyyn7s/vdbS6cfU='; new plugin 'jacoco.0.8.2.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/coverage/bundled/jacoco.0.8.2.zip', hash: 'SHA-1WV4QFe4t/qpAnoak+IQM0t6eEbk='; new plugin 'java-dowser.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/java-dowser/agent/java-dowser.zip', hash: 'SHA-1cGnCUu77d9/w1Iq3EIitmqIBmK0='; new plugin 'jetbrains.git.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/jetbrains.git/agent/jetbrains.git.zip', hash: 'SHA-15fcMbvn1uOhRtmdONBBEzHpq1T4='; new plugin 'jetbrains.resharper-clt.bundled.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotnet-tools/server/bundled-tool/jetbrains.resharper-clt.bundled.zip', hash: 'SHA-1Xu6+LB8F9FNmkWmpw2UHqWTY1ps='; new plugin 'jps.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/jps-tool/agent/jps.zip', hash: 'SHA-1JlyXHtWOap3QgaS1bxdcLW4e7R0='; new plugin 'junitPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant/agent/junitPlugin.zip', hash: 'SHA-174phtY4D1DuMYpFsdg+1jp4qxW8='; new plugin 'jvm-update.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/jvm-update/agent/jvm-update.zip', hash: 'SHA-1m7RZX4k0tz5Qg5RuPPOUHx7Hxkc='; new plugin 'maven.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven.zip', hash: 'SHA-1+K2UupU0rmY+tJbr8E/60w0IGdE='; new plugin 'maven3.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3.zip', hash: 'SHA-1q9oO4tVCPimLJugOvkj6GvC1PyU='; new plugin 'maven3_1.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_1.zip', hash: 'SHA-16SrzEJHTQs6I83YcOBZ/u+3kUqE='; new plugin 'maven3_2.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_2.zip', hash: 'SHA-1KK5n4i926e+4ZgT+VFBhqRk2bSY='; new plugin 'maven3_3.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_3.zip', hash: 'SHA-1/6IS06CHePJ9nWiTJKwPIUAXDI0='; new plugin 'maven3_5.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_5.zip', hash: 'SHA-1twiK7y5s63yx9yRm4SpadEYx8O4='; new plugin 'mavenPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/agent/mavenPlugin.zip', hash: 'SHA-1JH1JcSWc7Ky8mEiFtZUpPNIGeDk='; new plugin 'mercurial.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/mercurial/agent/mercurial.zip', hash: 'SHA-1AdxM9pntFrlASHo6v9XY/Ybdg8k='; new plugin 'meta-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/meta-runner/agent/meta-runner.zip', hash: 'SHA-1JE4jtSbvqU7fxE4BOB8V0dlRLGg='; new plugin 'nuget-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotNetPackagesSupport/agent/nuget-agent.zip', hash: 'SHA-1MBtDn42H8Lcf+pDszxwG7fMOIJI='; new plugin 'perfmon-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/perfmon/agent/perfmon-agent.zip', hash: 'SHA-1jwJc1UPp9oLGmBj5TU7wSA+oJyA='; new plugin 'perforce-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/perforce/agent/perforce-agent.zip', hash: 'SHA-1wOZcDbJtg5rDI9ww1Pw6HYatfDg='; new plugin 'powershell-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/powershell/agent/powershell-agent.zip', hash: 'SHA-1AYzWv/czg+qi+++zsZbf+PSK10c='; new plugin 'rake-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/rake-runner/agent/rake-runner.zip', hash: 'SHA-1noo6Yon9nsEYo6GpRbyy5Br4pdE='; new plugin 'remoteAccess.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/remoteAccess/agent/remoteAccess.zip', hash: 'SHA-1y8wmFAOK+AgPkjd4eWuMCnmyBdk='; new plugin 's3-artifact-storage-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/s3-artifact-storage/agent/s3-artifact-storage-agent.zip', hash: 'SHA-1HNezO1DI3E75KkZsgyHuQFb+Kro='; new plugin 'sbt-runner-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/sbt-runner/agent/sbt-runner-agent.zip', hash: 'SHA-1OyiyxD4oiBbmD/N1ciF8c7/OuWk='; new plugin 'ssh-manager.jar' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ssh-manager/agent/ssh-manager.jar', hash: 'SHA-1xzzzr39Yvw0nYoCbNnGyPu6eiao='; new plugin 'stacktracesPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/stacktraces/agent/stacktracesPlugin.zip', hash: 'SHA-1IuERuQ8N0YPwLBAtsFkT+FEtXy8='; new plugin 'svnAgent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/svn/agent/svnAgent.zip', hash: 'SHA-1u0G2+zz+B3I53ZCBr2TsXFyITlA='; new plugin 'swabra.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/swabra/agent/swabra.zip', hash: 'SHA-1cO12CRYZmNj71slMqllLwQGdDfw='; new plugin 'testNGPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant/agent/testNGPlugin.zip', hash: 'SHA-1fH0PIk+pY1x2hXb3FJoFN0ADOPk='; new plugin 'tfs-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/tfs/agent/tfs-agent.zip', hash: 'SHA-13eCoHwKf2Tfu0+tJP5K3nFEsVUw='; new plugin 'visualstudiotest-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/visualstudiotest/agent/visualstudiotest-agent.zip', hash: 'SHA-1M49ppig6PF/V3d1D7zIeD8pGpnw='; new plugin 'xcode-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/xcode-runner/agent/xcode-runner.zip', hash: 'SHA-1twQqQbIadqEEVctzLsFGtetEqnY='; new plugin 'xml-report-plugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/xml-report-plugin/agent/xml-report-plugin.zip', hash: 'SHA-1paZcdtfwCuKSjqsPt//uVwWzd40='
+[2019-01-28 02:33:27,580]   INFO - r.configs.dsl.DslPluginManager - Plugins dsl compiled in 1m:40s,414ms
+[2019-01-28 02:35:05,584]   INFO - r.configs.dsl.DslPluginManager - DSL documentation (http://localhost:8082/app/dsl-documentation/index.html) generated in 97853ms
+[2019-01-28 03:00:32,789]   INFO -  jetbrains.buildServer.CLEANUP - Trying to get lock for the maintenance process...
+[2019-01-28 03:00:32,795]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process obtained
+[2019-01-28 03:00:32,810]   INFO -  jetbrains.buildServer.CLEANUP - Preparing for clean-up...
+[2019-01-28 03:00:32,824]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up started...
+[2019-01-28 03:00:32,874]   INFO -  jetbrains.buildServer.CLEANUP - Will cleanup data for 0 build configurations removed before 2019-01-23 03:00:32.874
+[2019-01-28 03:00:32,878]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by specific build number ...
+[2019-01-28 03:00:32,891]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by sources or artifacts...
+[2019-01-28 03:00:32,899]   INFO -  jetbrains.buildServer.CLEANUP - Done collecting depending builds for each cleanup level
+[2019-01-28 03:00:32,900]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds for cleanup for each cleanup level...
+[2019-01-28 03:00:32,918]   INFO -  jetbrains.buildServer.CLEANUP - Collected builds for 0 build configurations
+[2019-01-28 03:00:32,932]   INFO -  jetbrains.buildServer.CLEANUP - Start compacting HSQL database...
+[2019-01-28 03:00:32,936]   INFO - ide.db.TeamCityDatabaseManager - Performing shutdown compact on HSQL database...
+[2019-01-28 03:00:34,194]   INFO - ide.db.TeamCityDatabaseManager - HSQL database shutdown compact performed successfully.
+[2019-01-28 03:00:34,284]   INFO -  jetbrains.buildServer.CLEANUP - Compacting HSQL database finished
+[2019-01-28 03:00:34,393]   INFO -  jetbrains.buildServer.CLEANUP - Start processing 30 afterCleanup extensions
+[2019-01-28 03:00:34,395]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (1 of 30): jetbrains.buildServer.serverSide.impl.cleanup.BackgroundBuildDataCleanerImpl
+[2019-01-28 03:00:34,401]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (2 of 30): jetbrains.buildServer.serverSide.statistics.diskusage.DiskUsageSListener$PinnedBuildsCollector
+[2019-01-28 03:00:34,402]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (3 of 30): jetbrains.buildServer.artifacts.s3.cleanup.S3CleanupExtension
+[2019-01-28 03:00:34,404]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (4 of 30): jetbrains.buildServer.duplicator.DuplicatesDataCleaner
+[2019-01-28 03:00:34,421]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (5 of 30): jetbrains.buildServer.controllers.login.RememberMe$1
+[2019-01-28 03:00:34,422]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (6 of 30): jetbrains.buildServer.serverSide.identifiers.ProjectIdentifiersManagerImpl
+[2019-01-28 03:00:34,424]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (7 of 30): jetbrains.buildServer.serverSide.impl.artifacts.ExternalBuildArtifactsCacheImpl
+[2019-01-28 03:00:34,426]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (8 of 30): jetbrains.buildServer.swabra.serverHealth.SwabraCleanCheckoutWatcherImpl$2
+[2019-01-28 03:00:34,427]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (9 of 30): org.jetbrains.teamcity.docker.cleanup.PushedImagesRegistryCleaner
+[2019-01-28 03:00:34,428]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (10 of 30): jetbrains.buildServer.users.impl.UserModelImpl
+[2019-01-28 03:00:34,429]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (11 of 30): jetbrains.buildServer.serverSide.impl.cleanup.InvalidHistoryRecordsCleaner
+[2019-01-28 03:00:34,433]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (12 of 30): jetbrains.buildServer.serverSide.mute.LowLevelProblemMutingServiceImpl$TestMutesCleaner
+[2019-01-28 03:00:34,434]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (13 of 30): jetbrains.buildServer.serverSide.impl.cleanup.BuildArtifactsCleaner
+[2019-01-28 03:00:34,435]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (14 of 30): jetbrains.buildServer.diagnostic.ThreadDumpsCleaner
+[2019-01-28 03:00:34,440]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (15 of 30): jetbrains.buildServer.serverSide.TestName2IndexImpl
+[2019-01-28 03:00:34,455]   INFO -  jetbrains.buildServer.CLEANUP - 		Start cleaning unused test names ...
+[2019-01-28 03:00:34,467]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (16 of 30): jetbrains.buildServer.serverSide.metadata.impl.metadata.MetadataStorageBean
+[2019-01-28 03:00:34,535]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (17 of 30): jetbrains.buildServer.serverSide.impl.audit.AuditLogCleanerImpl
+[2019-01-28 03:00:34,537]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records older than 365 days ...
+[2019-01-28 03:00:34,555]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete tests ...
+[2019-01-28 03:00:34,574]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete builds ...
+[2019-01-28 03:00:34,587]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished removing audit log records.
+[2019-01-28 03:00:34,588]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (18 of 30): jetbrains.buildServer.serverSide.impl.MultiNodeTasksDbImpl
+[2019-01-28 03:00:34,592]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (19 of 30): jetbrains.buildServer.serverSide.impl.cleanup.ObsoleteFilesCleaner
+[2019-01-28 03:00:34,596]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (20 of 30): jetbrains.buildServer.serverSide.CustomDataStorageManagerImpl
+[2019-01-28 03:00:34,602]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete log files (not used by any build) under build logs directory: /data/teamcity_server/datadir/system/messages
+[2019-01-28 03:00:34,606]   INFO -  jetbrains.buildServer.CLEANUP - Cannot find obsolete build log directories in old format
+[2019-01-28 03:00:34,607]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (21 of 30): jetbrains.buildServer.buildTriggers.vcs.clearcase.structure.ClearCaseStructureCache$ClearcaseCacheGeneralDataCleaner
+[2019-01-28 03:00:34,613]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete artifact directories (not used by any build) under directories: [/data/teamcity_server/datadir/system/artifacts]
+[2019-01-28 03:00:34,617]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (22 of 30): jetbrains.buildServer.serverSide.impl.versionedSettings.GeneratedSettingsCache
+[2019-01-28 03:00:34,619]   INFO -  jetbrains.buildServer.CLEANUP - Removed no obsolete artifact directories (0 processed)
+[2019-01-28 03:00:34,632]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (23 of 30): jetbrains.buildServer.serverSide.impl.projectSources.PatchCacheImpl
+[2019-01-28 03:00:34,651]   INFO - .projectSources.PatchCacheImpl - Cleaned 0 cached server-side patches of size 0 B in '/data/teamcity_server/datadir/system/caches/sources' directory
+[2019-01-28 03:00:34,651]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (24 of 30): jetbrains.buildServer.serverSide.impl.OldAgentsCleaner
+[2019-01-28 03:00:34,656]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (25 of 30): jetbrains.buildServer.serverSide.stat.TestFailureRateCollector
+[2019-01-28 03:00:34,662]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (26 of 30): jetbrains.buildServer.runner.codeInspection.InspectionDataCleaner
+[2019-01-28 03:00:34,688]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (27 of 30): jetbrains.buildServer.serverSide.statistics.impl.BuildDataStorageImpl
+[2019-01-28 03:00:34,689]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (28 of 30): jetbrains.buildServer.diagnostic.ThreadStatCleaner
+[2019-01-28 03:00:34,691]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (29 of 30): jetbrains.buildServer.responsibility.impl.ResponsibilityCleanupExtension
+[2019-01-28 03:00:34,693]   INFO -  jetbrains.buildServer.CLEANUP - 		Starting cleanup of responsibility entries...
+[2019-01-28 03:00:34,695]   INFO -  jetbrains.buildServer.CLEANUP - 		Will delete 0 responsibility entries
+[2019-01-28 03:00:34,696]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished cleanup of 0 responsibility entries
+[2019-01-28 03:00:34,697]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (30 of 30): jetbrains.buildServer.serverSide.impl.personal.PersonalBuildCleaner
+[2019-01-28 03:00:34,718]   INFO -  jetbrains.buildServer.CLEANUP - Finished processing afterCleanup extensions, took 325ms
+[2019-01-28 03:00:34,731]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up finished, took 1s
+[2019-01-28 03:00:34,735]   INFO -   jetbrains.buildServer.SERVER - Build history cache size is set to 10000 entries
+[2019-01-28 03:00:34,759]   INFO -  jetbrains.buildServer.CLEANUP - Post-cleanup tasks finished, took 26ms
+[2019-01-28 03:00:34,760]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process released
+[2019-01-28 03:07:42,140]   INFO -   jetbrains.buildServer.SERVER - JSP pre-compilation finished, pre-compiled 779 files in 34m:31s,615ms
+[2019-01-28 03:16:09,261]   INFO -   jetbrains.buildServer.SERVER - Start loading cache of build committers...
+[2019-01-28 03:16:09,257]   INFO - tbrains.buildServer.ACTIVITIES - New user created: 'admin' {id=1}
+[2019-01-28 03:16:09,289]   INFO -   jetbrains.buildServer.SERVER - Done loading cache of build committers
+[2019-01-28 03:16:09,458]   INFO -   jetbrains.buildServer.SERVER - Loading roles from the configuration file: /data/teamcity_server/datadir/config/roles-config.xml
+[2019-01-28 03:16:43,057]   INFO - l.UsageStatisticsCollectorImpl - Starting usage statistics collection...
+[2019-01-28 03:17:51,529]   INFO - l.UsageStatisticsCollectorImpl - Finish usage statistics collection, collected in 68540 ms
+[2019-01-28 03:48:41,968]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "人力资源 {id=id, internal id=project1}" was created by "'admin' (John) {id=1}"
+[2019-01-28 03:48:53,219]   INFO - projects.ProjectEventsNotifier - Processing projectCreated for id
+[2019-01-28 03:48:53,226]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'id'
+[2019-01-28 16:00:13,048]   INFO -   jetbrains.buildServer.SERVER - Finished calculating estimates for 0 queued builds in 9m:20s,243ms
+[2019-01-29 03:28:32,418]   INFO - l.UsageStatisticsCollectorImpl - Starting usage statistics collection...
+[2019-01-29 03:29:40,451]   INFO - l.UsageStatisticsCollectorImpl - Finish usage statistics collection, collected in 68099 ms
+[2019-01-30 03:37:41,745]   INFO - l.UsageStatisticsCollectorImpl - Starting usage statistics collection...
+[2019-01-30 03:38:49,785]   INFO - l.UsageStatisticsCollectorImpl - Finish usage statistics collection, collected in 68105 ms
+[2019-01-30 05:00:45,565]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup started
+[2019-01-30 05:00:45,586]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup finished
+[2019-01-30 06:01:15,582]   INFO -  jetbrains.buildServer.CLEANUP - Trying to get lock for the maintenance process...
+[2019-01-30 06:01:15,585]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process obtained
+[2019-01-30 06:01:15,597]   INFO -  jetbrains.buildServer.CLEANUP - Preparing for clean-up...
+[2019-01-30 06:01:15,607]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up started...
+[2019-01-30 06:01:15,625]   INFO -  jetbrains.buildServer.CLEANUP - Will cleanup data for 0 build configurations removed before 2019-01-25 06:01:15.624
+[2019-01-30 06:01:15,626]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by specific build number ...
+[2019-01-30 06:01:15,628]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by sources or artifacts...
+[2019-01-30 06:01:15,630]   INFO -  jetbrains.buildServer.CLEANUP - Done collecting depending builds for each cleanup level
+[2019-01-30 06:01:15,631]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds for cleanup for each cleanup level...
+[2019-01-30 06:01:15,632]   INFO -  jetbrains.buildServer.CLEANUP - Collected builds for 0 build configurations
+[2019-01-30 06:01:15,637]   INFO -  jetbrains.buildServer.CLEANUP - Start compacting HSQL database...
+[2019-01-30 06:01:15,641]   INFO - ide.db.TeamCityDatabaseManager - Performing shutdown compact on HSQL database...
+[2019-01-30 06:01:16,960]   INFO - ide.db.TeamCityDatabaseManager - HSQL database shutdown compact performed successfully.
+[2019-01-30 06:01:17,105]   INFO -  jetbrains.buildServer.CLEANUP - Compacting HSQL database finished
+[2019-01-30 06:01:17,208]   INFO -  jetbrains.buildServer.CLEANUP - Start processing 30 afterCleanup extensions
+[2019-01-30 06:01:17,209]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (1 of 30): jetbrains.buildServer.serverSide.impl.cleanup.BackgroundBuildDataCleanerImpl
+[2019-01-30 06:01:17,210]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (2 of 30): jetbrains.buildServer.serverSide.statistics.diskusage.DiskUsageSListener$PinnedBuildsCollector
+[2019-01-30 06:01:17,211]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (3 of 30): jetbrains.buildServer.artifacts.s3.cleanup.S3CleanupExtension
+[2019-01-30 06:01:17,212]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (4 of 30): jetbrains.buildServer.duplicator.DuplicatesDataCleaner
+[2019-01-30 06:01:17,215]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (5 of 30): jetbrains.buildServer.controllers.login.RememberMe$1
+[2019-01-30 06:01:17,216]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (6 of 30): jetbrains.buildServer.serverSide.identifiers.ProjectIdentifiersManagerImpl
+[2019-01-30 06:01:17,217]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (7 of 30): jetbrains.buildServer.serverSide.impl.artifacts.ExternalBuildArtifactsCacheImpl
+[2019-01-30 06:01:17,226]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (8 of 30): jetbrains.buildServer.swabra.serverHealth.SwabraCleanCheckoutWatcherImpl$2
+[2019-01-30 06:01:17,227]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (9 of 30): org.jetbrains.teamcity.docker.cleanup.PushedImagesRegistryCleaner
+[2019-01-30 06:01:17,228]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (10 of 30): jetbrains.buildServer.users.impl.UserModelImpl
+[2019-01-30 06:01:17,229]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (11 of 30): jetbrains.buildServer.serverSide.impl.cleanup.InvalidHistoryRecordsCleaner
+[2019-01-30 06:01:17,230]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (12 of 30): jetbrains.buildServer.serverSide.mute.LowLevelProblemMutingServiceImpl$TestMutesCleaner
+[2019-01-30 06:01:17,232]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (13 of 30): jetbrains.buildServer.serverSide.impl.cleanup.BuildArtifactsCleaner
+[2019-01-30 06:01:17,233]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (14 of 30): jetbrains.buildServer.diagnostic.ThreadDumpsCleaner
+[2019-01-30 06:01:17,234]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (15 of 30): jetbrains.buildServer.serverSide.TestName2IndexImpl
+[2019-01-30 06:01:17,236]   INFO -  jetbrains.buildServer.CLEANUP - 		Start cleaning unused test names ...
+[2019-01-30 06:01:17,237]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (16 of 30): jetbrains.buildServer.serverSide.metadata.impl.metadata.MetadataStorageBean
+[2019-01-30 06:01:17,352]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (17 of 30): jetbrains.buildServer.serverSide.impl.audit.AuditLogCleanerImpl
+[2019-01-30 06:01:17,354]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records older than 365 days ...
+[2019-01-30 06:01:17,359]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete tests ...
+[2019-01-30 06:01:17,363]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete builds ...
+[2019-01-30 06:01:17,370]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished removing audit log records.
+[2019-01-30 06:01:17,371]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (18 of 30): jetbrains.buildServer.serverSide.impl.MultiNodeTasksDbImpl
+[2019-01-30 06:01:17,373]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (19 of 30): jetbrains.buildServer.serverSide.impl.cleanup.ObsoleteFilesCleaner
+[2019-01-30 06:01:17,377]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (20 of 30): jetbrains.buildServer.serverSide.CustomDataStorageManagerImpl
+[2019-01-30 06:01:17,380]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete log files (not used by any build) under build logs directory: /data/teamcity_server/datadir/system/messages
+[2019-01-30 06:01:17,383]   INFO -  jetbrains.buildServer.CLEANUP - Cannot find obsolete build log directories in old format
+[2019-01-30 06:01:17,383]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (21 of 30): jetbrains.buildServer.buildTriggers.vcs.clearcase.structure.ClearCaseStructureCache$ClearcaseCacheGeneralDataCleaner
+[2019-01-30 06:01:17,385]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete artifact directories (not used by any build) under directories: [/data/teamcity_server/datadir/system/artifacts]
+[2019-01-30 06:01:17,388]   INFO -  jetbrains.buildServer.CLEANUP - Removed no obsolete artifact directories (0 processed)
+[2019-01-30 06:01:17,390]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (22 of 30): jetbrains.buildServer.serverSide.impl.versionedSettings.GeneratedSettingsCache
+[2019-01-30 06:01:17,394]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (23 of 30): jetbrains.buildServer.serverSide.impl.projectSources.PatchCacheImpl
+[2019-01-30 06:01:17,405]   INFO - .projectSources.PatchCacheImpl - Cleaned 0 cached server-side patches of size 0 B in '/data/teamcity_server/datadir/system/caches/sources' directory
+[2019-01-30 06:01:17,405]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (24 of 30): jetbrains.buildServer.serverSide.impl.OldAgentsCleaner
+[2019-01-30 06:01:17,406]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (25 of 30): jetbrains.buildServer.serverSide.stat.TestFailureRateCollector
+[2019-01-30 06:01:17,407]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (26 of 30): jetbrains.buildServer.runner.codeInspection.InspectionDataCleaner
+[2019-01-30 06:01:17,412]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (27 of 30): jetbrains.buildServer.serverSide.statistics.impl.BuildDataStorageImpl
+[2019-01-30 06:01:17,413]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (28 of 30): jetbrains.buildServer.diagnostic.ThreadStatCleaner
+[2019-01-30 06:01:17,415]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (29 of 30): jetbrains.buildServer.responsibility.impl.ResponsibilityCleanupExtension
+[2019-01-30 06:01:17,416]   INFO -  jetbrains.buildServer.CLEANUP - 		Starting cleanup of responsibility entries...
+[2019-01-30 06:01:17,417]   INFO -  jetbrains.buildServer.CLEANUP - 		Will delete 0 responsibility entries
+[2019-01-30 06:01:17,418]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished cleanup of 0 responsibility entries
+[2019-01-30 06:01:17,427]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (30 of 30): jetbrains.buildServer.serverSide.impl.personal.PersonalBuildCleaner
+[2019-01-30 06:01:17,435]   INFO -  jetbrains.buildServer.CLEANUP - Finished processing afterCleanup extensions, took 226ms
+[2019-01-30 06:01:17,438]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up finished, took 1s
+[2019-01-30 06:01:17,442]   INFO -   jetbrains.buildServer.SERVER - Build history cache size is set to 10000 entries
+[2019-01-30 06:01:17,464]   INFO -  jetbrains.buildServer.CLEANUP - Post-cleanup tasks finished, took 24ms
+[2019-01-30 06:01:17,469]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process released
+[2019-01-31 03:52:18,159]   INFO - l.UsageStatisticsCollectorImpl - Starting usage statistics collection...
+[2019-01-31 03:53:26,175]   INFO - l.UsageStatisticsCollectorImpl - Finish usage statistics collection, collected in 68081 ms
