@@ -7,19 +7,19 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./data:/opt/youtrack/data
-      - ./conf:/opt/youtrack/conf
-      - ./logs:/opt/youtrack/logs
-      - ./backups:/opt/youtrack/backups
+      - data/youtrack/data:/opt/youtrack/data
+      - data/youtrack/conf:/opt/youtrack/conf
+      - data/youtrack/logs:/opt/youtrack/logs
+      - data/youtrack/backups:/opt/youtrack/backups
   upsource:
     build:
       context: docker/upsource
     container_name: upsource
     volumes:
-      - ./data:/opt/upsource/data
-      - ./conf:/opt/upsource/conf
-      - ./logs:/opt/upsource/logs
-      - ./backups:/opt/upsource/backups
+      - data/upsource/data:/opt/upsource/data
+      - data/upsource/conf:/opt/upsource/conf
+      - data/upsource/logs:/opt/upsource/logs
+      - data/upsource/backups:/opt/upsource/backups
     ports:
       - 8081:8080
   teamcity:
@@ -27,8 +27,8 @@ services:
       context: docker/teamcity
     container_name: teamcity
     volumes:
-      - ./datadir:/data/teamcity_server/datadir
-      - ./logs:/opt/teamcity/logs
+      - data/teamcity/datadir:/data/teamcity_server/datadir
+      - data/teamcity/logs:/opt/teamcity/logs
     ports:
       - 8082:8111
   hub:
@@ -36,10 +36,10 @@ services:
       context: docker/hub
     container_name: hub
     volumes:
-      - ./data:/opt/hub/data
-      - ./conf:/opt/hub/conf
-      - ./logs:/opt/hub/logs
-      - ./backups:/opt/hub/backups
+      - data/hub/data:/opt/hub/data
+      - data/hub/conf:/opt/hub/conf
+      - data/hub/logs:/opt/hub/logs
+      - data/hub/backups:/opt/hub/backups
     ports:
       - 8083:8080
 
