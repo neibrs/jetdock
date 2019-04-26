@@ -1,4 +1,4 @@
-FROM jetbrains/youtrack:2018.4.48733
+FROM jetbrains/youtrack:2019.1.51759
 
 RUN chown -R 13001:13001 /opt/youtrack/conf
 
